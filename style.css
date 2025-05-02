@@ -1,29 +1,28 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* só pra dar contraste de fundo */
+    background-color: #f5f5f5;
   }
+
   
-  /* Esta é sua área centralizada com largura máxima */
-  
-  /* Limita a largura máxima do carrossel */
+
 #meuCarousel {
     max-width: 100%;
     margin: 0 auto;
   }
   
-  /* Ajusta a altura das imagens do carrossel */
+ 
   #meuCarousel .carousel-item img {
-    height: 400px;           /* você pode diminuir esse valor, tipo 300px */
-    object-fit: cover;       /* corta a imagem para caber sem distorcer */
+    height: 400px;           
+    object-fit: cover;       
   }
   
   
   
   .centralizado {
     max-width: 1080px;
-    margin: 0 auto;       /* centraliza horizontalmente */
-    padding: 20px;        /* espaçamento interno */
-    background-color: #fff; /* opcional, só pra dar destaque */
+    margin: 0 auto;       
+    padding: 20px;       
+    background-color: #fff; 
   }
   
